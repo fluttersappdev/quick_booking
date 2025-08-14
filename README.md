@@ -1,16 +1,32 @@
-# quick_booking
+# Route Stops & Quick Booking Module
 
-A new Flutter project.
+A Flutter application demonstrating a route stops listing and quick booking flow.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Splash screen with fade-in animation
+- List of route stops with status indicators
+- Quick booking functionality
+- Booking confirmation screen
+- Error handling with retry option
+- Modern UI with shadows and attractive design
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Feature-based organization
+- Riverpod for state management
+- Clean separation of concerns (data, domain, presentation)
+- Mock API for demonstration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run `flutter run`
+
+## Testing
+
+To run tests:
+
+```bash
+flutter test
